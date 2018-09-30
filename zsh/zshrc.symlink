@@ -59,6 +59,6 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
 export TERM="xterm-256color"
 
 # TODO: Move these out of these folders
-source  ~/Projects/powerlevel9k/powerlevel9k.zsh-theme
+source  $HOME/dependencies/powerlevel9k/powerlevel9k.zsh-theme
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 

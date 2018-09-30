@@ -4,6 +4,7 @@
 
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd -P)
+export DEPS_ROOT="$HOME/dependencies"
 
 set -e
 
