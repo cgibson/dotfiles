@@ -58,7 +58,6 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
 )
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
   status
-  history
   time
 )
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -74,5 +73,5 @@ source  $HOME/dependencies/powerlevel9k/powerlevel9k.zsh-theme
 # ZSH Autocomplete
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Cargo
+# Cargo + Rust
 source $HOME/.cargo/env
