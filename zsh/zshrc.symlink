@@ -68,7 +68,11 @@ POWERLEVEL9K_DISABLE_RPROMPT=false
 
 export TERM="xterm-256color"
 
-# TODO: Move these out of these folders
+# PowerLevel9k Theming
 source  $HOME/dependencies/powerlevel9k/powerlevel9k.zsh-theme
+
+# ZSH Autocomplete
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Cargo
+source $HOME/.cargo/env
