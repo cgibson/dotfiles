@@ -12,13 +12,16 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on
 
-let g:airline_theme='dark'
+let g:airline_theme='powerlineish'
+let g:airline_powerline_fonts = 1
 
 set laststatus=2
 syntax on
