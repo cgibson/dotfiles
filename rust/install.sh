@@ -19,7 +19,7 @@ else
   fi
 fi
 
-if $SHOULD_INSTALL
+if $SHOULD_INSTALL && 0
 then
   echo "  Installing rustup for you."
 

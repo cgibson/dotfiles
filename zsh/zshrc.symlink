@@ -54,7 +54,6 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
   host
   dir
-  vcs
 )
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
   status
@@ -74,4 +73,4 @@ source  $HOME/dependencies/powerlevel9k/powerlevel9k.zsh-theme
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Cargo + Rust
-source $HOME/.cargo/env
+# source $HOME/.cargo/env
