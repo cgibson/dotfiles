@@ -1,4 +1,6 @@
 {
+  "Profiles": [
+{
   "Working Directory" : "\/Users\/cgibson",
   "Prompt Before Closing 2" : 0,
   "Selected Text Color" : {
@@ -369,7 +371,7 @@
     "Green Component" : 0.7810582518577576
   },
   "Disable Smcup Rmcup" : false,
-  "Name" : "Default",
+  "Name" : "BestProfile",
   "Blinking Cursor" : false,
   "Guid" : "5084AF57-3965-4942-A879-DEFB3FE9887B",
   "Ansi 1 Color" : {
@@ -478,4 +480,6 @@
     "Green Component" : 0.1889124810695648
   },
   "Set Local Environment Vars" : true
+}
+]
 }
