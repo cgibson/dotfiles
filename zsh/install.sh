@@ -1,5 +1,8 @@
+#!/usr/bin/env bash
 
-echo "› checking powerlevel9k install"
+DEPS_ROOT="$HOME/dependencies"
+
+echo "› checking powerlevel9k install $DEPS_ROOT"
 
 # Build the dependencies folder if it doesn't already exist
 if ! [ -d $DEPS_ROOT ]

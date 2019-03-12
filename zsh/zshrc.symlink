@@ -49,13 +49,18 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
+# Skipping words with ctrl+arrow
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
 # PowerLevel9k components
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
   host
   dir
-  vcs
 )
+#   vcs
+# )
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
   status
   time

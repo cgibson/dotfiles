@@ -1,9 +1,9 @@
-alias ls='ls -G'
+alias ls='ls -G --color'
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 
 alias u='cd ..'
 alias uu='cd ..;cd ..'
-alias uu='cd ..;cd ..;cd ..'
-alias uu='cd ..;cd ..;cd ..;cd ..'
+alias uuu='cd ..;cd ..;cd ..'
+alias uuuu='cd ..;cd ..;cd ..;cd ..'

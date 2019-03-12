@@ -37,4 +37,6 @@
 [rebase]
         autoStash = true
 [diff]
-        algorithm = patience
+	algorithm = patience
+[fetch]
+	prune = true

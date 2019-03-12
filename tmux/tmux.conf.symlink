@@ -13,9 +13,12 @@ bind -n S-Left previous-window
 bind -n S-Right next-window
 
 # Disallow mouse scrolling or pane selection
-set -g mouse off
+# set -g mouse off
 
 # reload config
 bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
+
+# Necessary so we can skip words in zsh
+set-window-option -g xterm-keys on
 
 source ~/.dotfiles/tmux/tmux_theme.conf
